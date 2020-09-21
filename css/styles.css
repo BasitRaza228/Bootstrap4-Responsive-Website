@@ -15,7 +15,7 @@
 }
 
 .footer {
-  background-color: #C5CAE9;
+  background-color: #E3F2FD;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
@@ -23,7 +23,7 @@
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background-color: #3949AB;
+  background-color: #82B1FF;
   color: floralwhite;
 }
 
@@ -39,5 +39,5 @@ body {
 }
 
 .navbar-dark {
-    background-color: #283593;
+    background-color: #448AFF;
 }
