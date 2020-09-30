@@ -115,16 +115,17 @@
       <div class="row row-content">
         <div class="col-12">
           <h2>Corporate Leadership</h2>
-          <div id="accordion">
+          <div class="accordion" id="accordionCollapse">
+
             <div class="card">
-              <div class="card-header" id="peterhead">
+              <div class="card-header" role="tab" id="peterhead">
                 <h3 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#peter" aria-expanded="true" aria-controls="peter">
+                  <a class="button button-link collapsed" data-toggle="collapse" data-target="#peter">
                     Peter Pan <small>Chief Epicurious Officer</small>
-                  </button>
+                  </a>
                 </h3>
               </div>
-              <div class="collapse show" id="peter" data-parent="#accordion" aria-labelledby="peter">
+              <div class="collapse show" id="peter" data-parent="#accordionCollapse">
                 <div class="card-body">
                   <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents
                   who undertook the arduous journey to the shores of America with the
@@ -140,14 +141,14 @@
             </div>
 
             <div class="card">
-              <div class="card-header" id="dannyhead">
+              <div class="card-header" role="tab" id="dannyhead">
                 <h3 class="mb-0">
-                  <a data-toggle="collapse" data-target="#danny" aria-expanded="false" aria-controls="danny">
+                  <a class="button button-link collapsed" data-toggle="collapse" data-target="#danny">
                     Dhanasekaran Witherspoon <small>Chief Food Officer</small>
                   </a>
                 </h3>
               </div>
-              <div class="collapse" id="danny" data-parent="#accordion">
+              <div class="collapse" id="danny" data-parent="#accordionCollapse">
                 <div class="card-body">
                   <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his
                   colleagues, comes from a long established family tradition in
@@ -160,14 +161,14 @@
             </div>
 
             <div class="card">
-              <div class="card-header" id="agumbehead">
+              <div class="card-header" role="tab" id="agumbehead">
                 <h3 class="mb-0">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-target="#agumbe" aria-expanded="false" aria-controls="agumbe">
+                  <a class="button button-link collapsed" data-toggle="collapse" data-target="#agumbe">
                     Agumbe Tang <small>Chief Taste Officer</small>
                   </a>
                 </h3>
               </div>
-              <div class="collapse" id="agumbe" data-parent="#accordion">
+              <div class="collapse" id="agumbe" data-parent="#accordionCollapse">
                 <div class="card-body">
                   <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO,
                   personally ensures that every dish that we serve meets his exacting
@@ -179,21 +180,21 @@
             </div>
 
             <div class="card">
-              <div class="card-header" id="albertohead">
+              <div class="card-header" role="tab" id="albertohead">
                 <h3 class="mb-0">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-target="#alberto" aria-expanded="false" aria-controls="alberto">
+                  <a class="button button-link collapsed" data-toggle="collapse" data-target="#alberto">
                     Alberto Somayya <small>Executive Chef</small>
                   </a>
                 </h3>
               </div>
-              <div class="collapse" id="alberto" data-parent="#accordion">
+              <div class="collapse" id="alberto" data-parent="#accordionCollapse">
                 <div class="card-body">
                   <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International
                   experience having worked closely with whos-who in the culinary
                   world, he specializes in creating mouthwatering Indo-Italian fusion
                   experiences. He says,
                   <em>Put together the cuisines from the two craziest cultures, and you
-                    get a winning hit! Amma Mia!</em></em></p>
+                    get a winning hit! Amma Mia!</em></p>
                 </div>
               </div> 
             </div>
@@ -290,5 +291,9 @@
         </div>
       </div>
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

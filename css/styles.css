@@ -15,6 +15,14 @@
   min-height: 400px;
 }
 
+button,.button-link {
+  background: transparent !important;
+  color: #0f0f0f !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  cursor: pointer;
+}
+
 .footer {
   background-color: #e3f2fd;
   margin: 0px auto;
